@@ -8,10 +8,6 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-/**
- *
- * @author mmendez
- */
 @Configuration
 public class SwaggerConfig {
 
