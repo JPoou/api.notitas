@@ -6,9 +6,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/notitas?zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://localhost:3306/notes?zeroDateTimeBehavior=convertToNull
     username: root
-    password:
+    password: password
     test-while-idle: true
     validation-query: SELECT 1
     max-wait: 10000
